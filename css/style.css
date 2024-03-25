@@ -1,5 +1,55 @@
 .MyLogo {
     font-family: poppins;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 500;
+}
+body, html{
+    margin: 0;
+}
+
+.bg-body-tertiary {
+    padding: 0px 20px !important;
+}
+
+h1{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 800 !important;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+}
+
+h5{
+    color: #FF490C !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px !important;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 800 !important;
+    line-height: 30px !important;
+    color: black;
+    padding-bottom: 20px;
+}
+
+p{
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    line-height: 1.9em;
+    margin-bottom: 0 !important;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 70px;
+    padding-left: 0px !important;
+}
+li {
+    display: flex;
+    align-items: center;
 }

@@ -171,3 +171,8 @@ h5.finalTitle {
 .secondButton {
     color: #008B83;
 }
+
+@media only screen and (max-width: 600) {
+    /*Your CSS styles for your grid template are here */
+    
+}

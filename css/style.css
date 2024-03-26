@@ -21,7 +21,7 @@ h1{
 }
 
 h5{
-    color: #FF490C !important;
+    color: #008B83 !important;
     font-size: 18px;
     font-weight: 500;
     line-height: 40px !important;
@@ -37,7 +37,7 @@ h4 {
 
 p{
     font-family: "Poppins", Sans-serif;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 1.9em;
     margin-bottom: 0 !important;
 }
@@ -52,4 +52,107 @@ ul {
 li {
     display: flex;
     align-items: center;
+}
+
+.profileimg{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.firstsection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+col-9,.biocontent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h5titles {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.background-container {
+    background-color: #def0ee; 
+  }
+
+.container {
+    max-width: 1320px; /* Set your desired max-width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container if needed */
+}
+.MyIcons {
+    width: 40px;
+    padding-right: 15px;
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap:wrap ;
+    max-width: 1320px;
+    justify-content: center;
+    height: 200px;
+}
+
+.clientLogos {
+    max-width: 260px
+}
+
+.sectionTwo {
+    padding: 80px 0px 80px 0px;
+}
+.sectionThree {
+    padding: 100px 0px 100px 0px;
+}
+.sectionFour {
+    padding: 100px 0px 100px 0px;
+}
+
+.firstButton {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+
+.industries {
+    width: 300px;
+    font-size: 18px;   
+}
+
+.skillsList ul{
+    padding-left: 0px;
+    font-size: 18px;
+    line-height: 60px;   
+}
+
+.skillsList li{    
+    display: flex;
+    align-items: center;
+    width: 410px;
+    min-width: 315px;
+    font-size: 18px;
+}
+
+img.casestudyimg {
+    width: 400px;
+}
+
+.finalsection {
+    padding: 50px 0px 30px 0px;
+}
+
+.secondButton {
+    margin-top: 30px;
+}
+
+h5.finalTitle {
+    font-size: 28px;
+}
+
+.sectionFive {
+    padding: 100px 0px 100px 0px;
 }

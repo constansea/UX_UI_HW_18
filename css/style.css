@@ -138,7 +138,9 @@ col-9,.biocontent {
 }
 
 img.casestudyimg {
-    width: 400px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .finalsection {
@@ -154,5 +156,18 @@ h5.finalTitle {
 }
 
 .sectionFive {
-    padding: 100px 0px 100px 0px;
+    padding: 100px 0px 10px 0px;
+}
+
+.caseStudyContainer {
+    background-color: #def0ee;
+    height: 400px;
+}
+
+.caseStudyContent {
+    padding: 25px;
+}
+
+.secondButton {
+    color: #008B83;
 }
